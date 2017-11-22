@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY package.json /app
 
-RUN npm install
+RUN sudo npm install
 
 # Copy the current directory contents into the container at /app
 COPY . /app
