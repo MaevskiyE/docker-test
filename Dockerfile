@@ -13,8 +13,8 @@ COPY . /app
 
 ENV PORT=80
 
-CMD ["npm", "start"]
-
 # Make port 5000 available to the world outside this container
 EXPOSE 80
+
+CMD ["npm", "start"]
 
