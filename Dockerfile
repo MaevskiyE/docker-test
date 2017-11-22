@@ -12,7 +12,7 @@ RUN npm install
 COPY . /app
 
 ENV PORT=80
-
+RUN npm run build
 CMD ["npm", "start"]
 
 # Make port 5000 available to the world outside this container

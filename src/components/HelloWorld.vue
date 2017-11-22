@@ -25,7 +25,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to My Vue.js App'
+      msg: 'Welcome to my Frist Vue.js App'
     }
   }
 }
